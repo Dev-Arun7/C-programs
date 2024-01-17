@@ -1,0 +1,12 @@
+09:52:36 **** Incremental Build of configuration Debug for project 064_Decresing number pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\064_Decresing number pattern.o" "..\\src\\064_Decresing number pattern.c" 
+..\src\064_Decresing number pattern.c: In function 'main':
+..\src\064_Decresing number pattern.c:31:4: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+    usleep(s);
+    ^~~~~~
+    _sleep
+gcc -o "064_Decresing number pattern.exe" "src\\064_Decresing number pattern.o" 
+
+09:52:36 Build Finished. 0 errors, 1 warnings. (took 322ms)
+

@@ -1,0 +1,12 @@
+15:02:15 **** Incremental Build of configuration Debug for project 045A_All Functions together ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\045A_All Functions together.o" "..\\src\\045A_All Functions together.c" 
+..\src\045A_All Functions together.c: In function 'main':
+..\src\045A_All Functions together.c:25:2: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+  usleep(500000);
+  ^~~~~~
+  _sleep
+gcc -o "045A_All Functions together.exe" "src\\045A_All Functions together.o" 
+
+15:02:15 Build Finished. 0 errors, 1 warnings. (took 674ms)
+

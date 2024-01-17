@@ -1,0 +1,12 @@
+07:22:25 **** Incremental Build of configuration Debug for project 056_Number pattern alternative numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\056_Number pattern alternative numbers.o" "..\\src\\056_Number pattern alternative numbers.c" 
+..\src\056_Number pattern alternative numbers.c: In function 'main':
+..\src\056_Number pattern alternative numbers.c:27:5: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+     usleep(s);
+     ^~~~~~
+     _sleep
+gcc -o "056_Number pattern alternative numbers.exe" "src\\056_Number pattern alternative numbers.o" 
+
+07:22:26 Build Finished. 0 errors, 1 warnings. (took 548ms)
+

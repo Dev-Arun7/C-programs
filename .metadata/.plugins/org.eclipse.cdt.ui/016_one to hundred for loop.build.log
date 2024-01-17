@@ -1,0 +1,12 @@
+08:01:47 **** Rebuild of configuration Debug for project 016_one to hundred for loop ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\016_one to hundred for loop.o" "..\\src\\016_one to hundred for loop.c" 
+..\src\016_one to hundred for loop.c: In function 'main':
+..\src\016_one to hundred for loop.c:21:3: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+   usleep(50000);
+   ^~~~~~
+   _sleep
+gcc -o "016_one to hundred for loop.exe" "src\\016_one to hundred for loop.o" 
+
+08:01:47 Build Finished. 0 errors, 1 warnings. (took 334ms)
+

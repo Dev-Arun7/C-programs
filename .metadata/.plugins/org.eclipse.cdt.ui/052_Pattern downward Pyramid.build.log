@@ -1,0 +1,12 @@
+08:27:15 **** Incremental Build of configuration Debug for project 052_Pattern downward Pyramid ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\052_Pattern downward Pyramid.o" "..\\src\\052_Pattern downward Pyramid.c" 
+..\src\052_Pattern downward Pyramid.c: In function 'main':
+..\src\052_Pattern downward Pyramid.c:25:4: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+    usleep(50000);
+    ^~~~~~
+    _sleep
+gcc -o "052_Pattern downward Pyramid.exe" "src\\052_Pattern downward Pyramid.o" 
+
+08:27:15 Build Finished. 0 errors, 1 warnings. (took 620ms)
+

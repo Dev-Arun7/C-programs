@@ -1,0 +1,7 @@
+08:01:58 **** Rebuild of configuration Debug for project 040_Pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\040_Pattern.o" "..\\src\\040_Pattern.c" 
+gcc -o 040_Pattern.exe "src\\040_Pattern.o" 
+
+08:01:58 Build Finished. 0 errors, 0 warnings. (took 410ms)
+

@@ -1,0 +1,7 @@
+08:01:57 **** Rebuild of configuration Debug for project 039_Search in a multi dimentional Array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\039_Search in a multi dimentional Array.o" "..\\src\\039_Search in a multi dimentional Array.c" 
+gcc -o "039_Search in a multi dimentional Array.exe" "src\\039_Search in a multi dimentional Array.o" 
+
+08:01:58 Build Finished. 0 errors, 0 warnings. (took 382ms)
+

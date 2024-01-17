@@ -1,0 +1,7 @@
+11:04:55 **** Incremental Build of configuration Debug for project 041_Pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\041_Pattern.o" "..\\src\\041_Pattern.c" 
+gcc -o 041_Pattern.exe "src\\041_Pattern.o" 
+
+11:04:55 Build Finished. 0 errors, 0 warnings. (took 458ms)
+

@@ -1,0 +1,7 @@
+10:09:14 **** Rebuild of configuration Debug for project 036_Stirng_gets ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\036_Stirng_1.o" "..\\src\\036_Stirng_1.c" 
+gcc -o 036_Stirng_gets.exe "src\\036_Stirng_1.o" 
+
+10:09:15 Build Finished. 0 errors, 0 warnings. (took 509ms)
+

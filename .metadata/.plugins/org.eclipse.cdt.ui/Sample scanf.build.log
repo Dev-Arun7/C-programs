@@ -1,0 +1,7 @@
+09:03:51 **** Incremental Build of configuration Debug for project Sample scanf ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample scanf.o" "..\\src\\Sample scanf.c" 
+gcc -o "Sample scanf.exe" "src\\Sample scanf.o" 
+
+09:03:51 Build Finished. 0 errors, 0 warnings. (took 313ms)
+

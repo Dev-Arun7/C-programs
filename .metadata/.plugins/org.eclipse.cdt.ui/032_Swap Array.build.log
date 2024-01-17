@@ -1,0 +1,11 @@
+08:01:54 **** Rebuild of configuration Debug for project 032_Swap Array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\032_Swap Array.o" "..\\src\\032_Swap Array.c" 
+..\src\032_Swap Array.c: In function 'main':
+..\src\032_Swap Array.c:16:30: warning: unused variable 'j' [-Wunused-variable]
+  int a1[100],a2[100],limit,i,j,temp;
+                              ^
+gcc -o "032_Swap Array.exe" "src\\032_Swap Array.o" 
+
+08:01:55 Build Finished. 0 errors, 1 warnings. (took 416ms)
+

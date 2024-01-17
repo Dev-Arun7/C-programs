@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;023_Sum of odd numbers&apos;" deleteContents="true" description="Delete resource &apos;023_Sum of odd numbers&apos;" element1="/023_Sum of odd numbers" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1665916106337"/>&#x0A;<refactoring comment="Rename resource &apos;036_Stirng_1&apos; to &apos;036_Stirng_gets&apos;" description="Rename resource &apos;036_Stirng_1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/036_Stirng_1" name="036_Stirng_gets" stamp="1666401957989" updateReferences="true"/>
+</session>

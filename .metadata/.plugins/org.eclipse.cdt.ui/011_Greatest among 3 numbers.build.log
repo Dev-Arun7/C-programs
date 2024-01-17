@@ -1,0 +1,7 @@
+08:01:44 **** Rebuild of configuration Debug for project 011_Greatest among 3 numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\011_Greatest among 3 numbers.o" "..\\src\\011_Greatest among 3 numbers.c" 
+gcc -o "011_Greatest among 3 numbers.exe" "src\\011_Greatest among 3 numbers.o" 
+
+08:01:44 Build Finished. 0 errors, 0 warnings. (took 390ms)
+

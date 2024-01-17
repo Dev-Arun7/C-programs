@@ -1,0 +1,7 @@
+08:01:43 **** Rebuild of configuration Debug for project 009_if ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\009_if.o" "..\\src\\009_if.c" 
+gcc -o 009_if.exe "src\\009_if.o" 
+
+08:01:43 Build Finished. 0 errors, 0 warnings. (took 462ms)
+

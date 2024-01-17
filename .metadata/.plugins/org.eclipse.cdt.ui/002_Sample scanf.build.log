@@ -1,0 +1,7 @@
+08:01:37 **** Rebuild of configuration Debug for project 002_Sample scanf ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sample scanf.o" "..\\src\\Sample scanf.c" 
+gcc -o "002_Sample scanf.exe" "src\\Sample scanf.o" 
+
+08:01:38 Build Finished. 0 errors, 0 warnings. (took 654ms)
+

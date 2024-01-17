@@ -1,0 +1,97 @@
+/*
+ ============================================================================
+ Name        : 045A_All.c
+ Author      : Arun
+ Version     :
+ Copyright   : Arun Balakrishnan
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void sum();
+void sub(int,int);
+int mul(int,int);
+float div();
+
+int main(void)
+{
+	int result,choice,num1,num2;
+	float resultDiv;
+	setbuf(stdout,NULL);
+	printf("Hi Arun \n");
+	usleep(100000);
+
+
+
+	printf("Select the operation \n");
+	usleep(50000);
+	printf("1-Addition\n");
+	usleep(50000);
+	printf("2-Subtract\n");
+	usleep(50000);
+	printf("3-Multiply\n");
+	usleep(50000);
+	printf("4-Divide\n");
+	usleep(50000);
+	scanf("%d",&choice);
+	switch(choice)
+	{
+	case 1:
+		//Addition using without argument & without return
+		sum();
+		break;
+	case 2:
+		//Subtraction using with argument and without return..
+		printf("Enter two numbers for subtraction \n");
+		scanf("%d%d",&num1,&num2);
+		sub(num1,num2);
+		break;
+	case 3:
+	//Multiplication using with argument and with return.
+		printf("Enter two numbers for multiplication \n");
+		scanf("%d%d",&num1,&num2);
+		result=mul(num1,num2);
+		printf("The answer is %d",result);
+		break;
+	case 4:
+		//Division using without argument and with return.
+		resultDiv=div();
+		printf("The answer is %f",resultDiv);
+
+	}
+	return EXIT_SUCCESS;
+}
+void sum()
+{
+	int sum,num1,num2;
+	printf("Enter the number \n");
+	scanf("%d%d",&num1,&num2);
+	sum=num1+num2;
+	printf("The sum is %d",sum);
+}
+void sub(n1,n2)
+{
+	int result;
+	result=n1-n2;
+	printf("The answer is %d",result);
+}
+int mul(num1,num2)
+{
+	int result;
+	result=num1*num2;
+	return result;
+}
+float div()
+{
+	int num1,num2;
+	float result;
+	printf("Enter two numbers for division \n");
+	scanf("%d%d",&num1,&num2);
+	result=num1/num2;
+	return result;
+}
+
+
+

@@ -1,0 +1,12 @@
+11:40:23 **** Rebuild of configuration Debug for project 031_Selection Sorting ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\031_Selection Sorting.o" "..\\src\\031_Selection Sorting.c" 
+..\src\031_Selection Sorting.c: In function 'main':
+..\src\031_Selection Sorting.c:48:3: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+   usleep(500000);
+   ^~~~~~
+   _sleep
+gcc -o "031_Selection Sorting.exe" "src\\031_Selection Sorting.o" 
+
+11:40:24 Build Finished. 0 errors, 1 warnings. (took 852ms)
+

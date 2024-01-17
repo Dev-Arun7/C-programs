@@ -1,0 +1,7 @@
+12:23:52 **** Incremental Build of configuration Debug for project 030A_Search in an array more more than one element ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\030A_Search in an array more more than one element.o" "..\\src\\030A_Search in an array more more than one element.c" 
+gcc -o "030A_Search in an array more more than one element.exe" "src\\030A_Search in an array more more than one element.o" 
+
+12:23:53 Build Finished. 0 errors, 0 warnings. (took 677ms)
+

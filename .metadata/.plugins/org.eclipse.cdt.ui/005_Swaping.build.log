@@ -1,0 +1,7 @@
+08:01:41 **** Rebuild of configuration Debug for project 005_Swaping ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\005_Swaping.o" "..\\src\\005_Swaping.c" 
+gcc -o 005_Swaping.exe "src\\005_Swaping.o" 
+
+08:01:41 Build Finished. 0 errors, 0 warnings. (took 468ms)
+

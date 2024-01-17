@@ -1,0 +1,12 @@
+06:38:49 **** Rebuild of configuration Debug for project 062_Diamond Pattern with number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\062_Diamond Pattern with number.o" "..\\src\\062_Diamond Pattern with number.c" 
+..\src\062_Diamond Pattern with number.c: In function 'main':
+..\src\062_Diamond Pattern with number.c:25:4: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+    usleep(s);
+    ^~~~~~
+    _sleep
+gcc -o "062_Diamond Pattern with number.exe" "src\\062_Diamond Pattern with number.o" 
+
+06:38:50 Build Finished. 0 errors, 1 warnings. (took 646ms)
+

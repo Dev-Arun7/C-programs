@@ -1,0 +1,7 @@
+08:01:53 **** Rebuild of configuration Debug for project 029_Addition using Array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\029_Addition using Array.o" "..\\src\\029_Addition using Array.c" 
+gcc -o "029_Addition using Array.exe" "src\\029_Addition using Array.o" 
+
+08:01:53 Build Finished. 0 errors, 0 warnings. (took 323ms)
+

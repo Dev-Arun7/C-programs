@@ -1,0 +1,7 @@
+08:01:48 **** Rebuild of configuration Debug for project 019_Prime Number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\019_Prime Number.o" "..\\src\\019_Prime Number.c" 
+gcc -o "019_Prime Number.exe" "src\\019_Prime Number.o" 
+
+08:01:49 Build Finished. 0 errors, 0 warnings. (took 397ms)
+

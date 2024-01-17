@@ -1,0 +1,12 @@
+08:01:51 **** Rebuild of configuration Debug for project 024_123 Pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\024_123 Pattern.o" "..\\src\\024_123 Pattern.c" 
+..\src\024_123 Pattern.c: In function 'main':
+..\src\024_123 Pattern.c:25:4: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+    usleep(30000);
+    ^~~~~~
+    _sleep
+gcc -o "024_123 Pattern.exe" "src\\024_123 Pattern.o" 
+
+08:01:51 Build Finished. 0 errors, 1 warnings. (took 335ms)
+

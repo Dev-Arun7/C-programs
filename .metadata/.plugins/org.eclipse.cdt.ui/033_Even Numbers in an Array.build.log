@@ -1,0 +1,11 @@
+08:01:55 **** Rebuild of configuration Debug for project 033_Even Numbers in an Array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\033_Even Numbers in an Array.o" "..\\src\\033_Even Numbers in an Array.c" 
+..\src\033_Even Numbers in an Array.c: In function 'main':
+..\src\033_Even Numbers in an Array.c:34:6: warning: operation on 'j' may be undefined [-Wsequence-point]
+     j=++j;
+     ~^~~~
+gcc -o "033_Even Numbers in an Array.exe" "src\\033_Even Numbers in an Array.o" 
+
+08:01:55 Build Finished. 0 errors, 1 warnings. (took 320ms)
+

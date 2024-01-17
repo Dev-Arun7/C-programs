@@ -1,0 +1,17 @@
+/*
+ ============================================================================
+ Name        : 064_Decresing.c
+ Author      : Arun
+ Version     :
+ Copyright   : Arun Balakrishnan
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("Hi"); /* prints Hi */
+	return EXIT_SUCCESS;
+}

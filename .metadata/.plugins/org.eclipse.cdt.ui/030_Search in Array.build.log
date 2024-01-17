@@ -1,0 +1,7 @@
+09:59:08 **** Rebuild of configuration Debug for project 030_Search in Array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\030_Search in Array.o" "..\\src\\030_Search in Array.c" 
+gcc -o "030_Search in Array.exe" "src\\030_Search in Array.o" 
+
+09:59:10 Build Finished. 0 errors, 0 warnings. (took 1s.978ms)
+

@@ -1,0 +1,12 @@
+08:01:31 **** Incremental Build of configuration Debug for project 059_Diamond pattern 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\059_Practice diamond pattern.o" "..\\src\\059_Practice diamond pattern.c" 
+..\src\059_Practice diamond pattern.c: In function 'main':
+..\src\059_Practice diamond pattern.c:26:4: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+    usleep(s);
+    ^~~~~~
+    _sleep
+gcc -o "059_Diamond pattern 2.exe" "src\\059_Practice diamond pattern.o" 
+
+08:01:31 Build Finished. 0 errors, 1 warnings. (took 354ms)
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;066_Function with argument and without return addition&apos;" deleteContents="false" description="Delete resource &apos;066_Function with argument and without return addition&apos;" element1="/066_Function with argument and without return addition" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1687403739614"/>&#x0A;<refactoring comment="Delete resource &apos;065_Function_multiply&apos;" deleteContents="false" description="Delete resource &apos;065_Function_multiply&apos;" element1="/065_Function_multiply" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1687403747146"/>
+</session>

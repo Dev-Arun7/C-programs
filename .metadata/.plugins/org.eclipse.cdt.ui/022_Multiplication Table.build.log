@@ -1,0 +1,12 @@
+08:01:50 **** Rebuild of configuration Debug for project 022_Multiplication Table ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\022_Multiplication Table.o" "..\\src\\022_Multiplication Table.c" 
+..\src\022_Multiplication Table.c: In function 'main':
+..\src\022_Multiplication Table.c:24:3: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+   usleep(100000);
+   ^~~~~~
+   _sleep
+gcc -o "022_Multiplication Table.exe" "src\\022_Multiplication Table.o" 
+
+08:01:50 Build Finished. 0 errors, 1 warnings. (took 359ms)
+

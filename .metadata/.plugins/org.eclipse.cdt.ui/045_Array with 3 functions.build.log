@@ -1,0 +1,23 @@
+22:07:14 **** Incremental Build of configuration Debug for project 045_Array with 3 functions ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\045_Array with 3 functions.o" "..\\src\\045_Array with 3 functions.c" 
+..\src\045_Array with 3 functions.c: In function 'main':
+..\src\045_Array with 3 functions.c:18:10: warning: variable 'values' set but not used [-Wunused-but-set-variable]
+  int n,i,values[100];
+          ^~~~~~
+..\src\045_Array with 3 functions.c: At top level:
+..\src\045_Array with 3 functions.c:37:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ disp(int lim)
+ ^~~~
+..\src\045_Array with 3 functions.c:37:1: warning: conflicting types for 'disp'
+..\src\045_Array with 3 functions.c:14:6: note: previous declaration of 'disp' was here
+ void disp(int);
+      ^~~~
+..\src\045_Array with 3 functions.c: In function 'main':
+..\src\045_Array with 3 functions.c:22:11: warning: 'i' is used uninitialized in this function [-Wuninitialized]
+  values[i]=get(n);
+  ~~~~~~~~~^~~~~~~
+gcc -o "045_Array with 3 functions.exe" "src\\045_Array with 3 functions.o" 
+
+22:07:15 Build Finished. 0 errors, 4 warnings. (took 390ms)
+

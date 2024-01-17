@@ -1,0 +1,7 @@
+08:01:42 **** Rebuild of configuration Debug for project 008_Simple interest ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\008_Simple interest.o" "..\\src\\008_Simple interest.c" 
+gcc -o "008_Simple interest.exe" "src\\008_Simple interest.o" 
+
+08:01:43 Build Finished. 0 errors, 0 warnings. (took 468ms)
+

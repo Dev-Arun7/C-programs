@@ -1,0 +1,7 @@
+08:01:45 **** Rebuild of configuration Debug for project 012_Switch ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\012_Switch.o" "..\\src\\012_Switch.c" 
+gcc -o 012_Switch.exe "src\\012_Switch.o" 
+
+08:01:45 Build Finished. 0 errors, 0 warnings. (took 379ms)
+

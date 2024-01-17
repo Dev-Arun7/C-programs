@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;041_Functions&apos; to &apos;041_Function without argument and without return&apos;" description="Rename resource &apos;041_Functions&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/041_Functions" name="041_Function without argument and without return" stamp="1671505194976" updateReferences="true"/>
+</session>

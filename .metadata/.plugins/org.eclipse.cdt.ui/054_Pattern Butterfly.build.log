@@ -1,0 +1,12 @@
+11:19:34 **** Incremental Build of configuration Debug for project 054_Pattern Butterfly ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\054_Pattern Butterfly.o" "..\\src\\054_Pattern Butterfly.c" 
+..\src\054_Pattern Butterfly.c: In function 'main':
+..\src\054_Pattern Butterfly.c:25:4: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+    usleep(s);
+    ^~~~~~
+    _sleep
+gcc -o "054_Pattern Butterfly.exe" "src\\054_Pattern Butterfly.o" 
+
+11:19:34 Build Finished. 0 errors, 1 warnings. (took 335ms)
+

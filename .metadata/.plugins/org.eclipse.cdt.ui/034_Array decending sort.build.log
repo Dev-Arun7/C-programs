@@ -1,0 +1,7 @@
+08:01:55 **** Rebuild of configuration Debug for project 034_Array decending sort ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\034_Array decending sort.o" "..\\src\\034_Array decending sort.c" 
+gcc -o "034_Array decending sort.exe" "src\\034_Array decending sort.o" 
+
+08:01:55 Build Finished. 0 errors, 0 warnings. (took 317ms)
+

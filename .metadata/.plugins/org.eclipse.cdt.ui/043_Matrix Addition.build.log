@@ -1,0 +1,7 @@
+08:01:59 **** Rebuild of configuration Debug for project 043_Matrix addition ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\043_Matrix addition.o" "..\\src\\043_Matrix addition.c" 
+gcc -o "043_Matrix addition.exe" "src\\043_Matrix addition.o" 
+
+08:01:59 Build Finished. 0 errors, 0 warnings. (took 380ms)
+

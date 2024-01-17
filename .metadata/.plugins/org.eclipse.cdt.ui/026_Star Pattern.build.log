@@ -1,0 +1,15 @@
+08:01:51 **** Rebuild of configuration Debug for project 026_Star Pattern ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\026_Star Pattern.o" "..\\src\\026_Star Pattern.c" 
+..\src\026_Star Pattern.c: In function 'main':
+..\src\026_Star Pattern.c:30:4: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+    usleep(200000);
+    ^~~~~~
+    _sleep
+..\src\026_Star Pattern.c:33:4: warning: operation on 'k' may be undefined [-Wsequence-point]
+   k=--k;
+   ~^~~~
+gcc -o "026_Star Pattern.exe" "src\\026_Star Pattern.o" 
+
+08:01:52 Build Finished. 0 errors, 2 warnings. (took 410ms)
+

@@ -1,0 +1,12 @@
+09:47:42 **** Incremental Build of configuration Debug for project 063_Butterfly number pattern with number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\063_Butterfly number pattern with number.o" "..\\src\\063_Butterfly number pattern with number.c" 
+..\src\063_Butterfly number pattern with number.c: In function 'main':
+..\src\063_Butterfly number pattern with number.c:27:4: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+    usleep(s);
+    ^~~~~~
+    _sleep
+gcc -o "063_Butterfly number pattern with number.exe" "src\\063_Butterfly number pattern with number.o" 
+
+09:47:44 Build Finished. 0 errors, 1 warnings. (took 1s.961ms)
+

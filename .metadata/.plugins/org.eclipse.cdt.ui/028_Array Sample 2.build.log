@@ -1,0 +1,7 @@
+08:01:52 **** Rebuild of configuration Debug for project 028_Array Sample 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\028_Array Sample 2.o" "..\\src\\028_Array Sample 2.c" 
+gcc -o "028_Array Sample 2.exe" "src\\028_Array Sample 2.o" 
+
+08:01:53 Build Finished. 0 errors, 0 warnings. (took 544ms)
+

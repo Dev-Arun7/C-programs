@@ -1,0 +1,12 @@
+08:01:42 **** Rebuild of configuration Debug for project 006_Char ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\006_Char.o" "..\\src\\006_Char.c" 
+..\src\006_Char.c: In function 'main':
+..\src\006_Char.c:18:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+  scanf("%s",&a);
+         ~^  ~~
+..\src\006_Char.c:18:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+gcc -o 006_Char.exe "src\\006_Char.o" 
+
+08:01:42 Build Finished. 0 errors, 2 warnings. (took 355ms)
+

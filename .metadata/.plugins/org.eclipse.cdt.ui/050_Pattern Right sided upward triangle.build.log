@@ -1,0 +1,12 @@
+07:48:14 **** Incremental Build of configuration Debug for project 050_Pattern Right sided upward triangle ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\050_Pattern Right sided upward triangle.o" "..\\src\\050_Pattern Right sided upward triangle.c" 
+..\src\050_Pattern Right sided upward triangle.c: In function 'main':
+..\src\050_Pattern Right sided upward triangle.c:25:5: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+     usleep(50000);
+     ^~~~~~
+     _sleep
+gcc -o "050_Pattern Right sided upward triangle.exe" "src\\050_Pattern Right sided upward triangle.o" 
+
+07:48:15 Build Finished. 0 errors, 1 warnings. (took 452ms)
+

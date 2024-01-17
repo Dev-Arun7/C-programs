@@ -1,0 +1,12 @@
+08:01:49 **** Rebuild of configuration Debug for project 021_Star inverted ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\021_Star inverted.o" "..\\src\\021_Star inverted.c" 
+..\src\021_Star inverted.c: In function 'main':
+..\src\021_Star inverted.c:27:3: warning: implicit declaration of function 'usleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+   usleep(100000);
+   ^~~~~~
+   _sleep
+gcc -o "021_Star inverted.exe" "src\\021_Star inverted.o" 
+
+08:01:50 Build Finished. 0 errors, 1 warnings. (took 413ms)
+

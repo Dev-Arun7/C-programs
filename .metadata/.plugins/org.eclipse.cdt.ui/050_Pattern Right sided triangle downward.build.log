@@ -1,0 +1,21 @@
+07:15:57 **** Incremental Build of configuration Debug for project 050_Pattern Right sided triangle downward ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\050_Pattern Right sided triangle downward.o" "..\\src\\050_Pattern Right sided triangle downward.cpp" 
+..\src\050_Pattern Right sided triangle downward.cpp: In function 'int main()':
+..\src\050_Pattern Right sided triangle downward.cpp:23:4: error: 'usleep' was not declared in this scope
+    usleep(50000);
+    ^~~~~~
+..\src\050_Pattern Right sided triangle downward.cpp:23:4: note: suggested alternative: '_sleep'
+    usleep(50000);
+    ^~~~~~
+    _sleep
+..\src\050_Pattern Right sided triangle downward.cpp:28:4: error: 'usleep' was not declared in this scope
+    usleep(50000);
+    ^~~~~~
+..\src\050_Pattern Right sided triangle downward.cpp:28:4: note: suggested alternative: '_sleep'
+    usleep(50000);
+    ^~~~~~
+    _sleep
+
+07:15:57 Build Failed. 2 errors, 0 warnings. (took 629ms)
+
